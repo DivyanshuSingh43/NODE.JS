@@ -11,7 +11,7 @@ const requestHandler = (req, res) => {
     <a> href="/calc">Go to calculator</a>
     </body>
     </html>
-    `);
+    `); 
     return res.end();
 
 }else if(req.url.toLowerCase() === '/calculator'){

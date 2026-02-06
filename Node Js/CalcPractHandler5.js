@@ -6,7 +6,7 @@ const requestHandler = (req, res) => {
     res.write(`
         <html>
     <head><title>Practice set</title></head>
-    <body>
+    <body> 
     <h1>Welcome to calculator</h1></body>
     <a> href="/calc">Go to calculator</a>
     </body>

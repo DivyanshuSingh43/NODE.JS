@@ -7,7 +7,7 @@ const requestHandler = (req, res)=>{
     res.setHeader('Content-Type', 'text/html');
     res.write('<html>');
     res.write('<head><title>Complete Coding</title></head>');
-    res.write('<body><h1>Enter your details</h1>');
+    res.write('<body><h1>Enter your details</h1>'); 
     res.write('<form action="/submit-details" method="POST">');
     res.write('<input type="text" name="username" placeholder="Enter your name"><br>');
     res.write('<label for="male">Male</label>');

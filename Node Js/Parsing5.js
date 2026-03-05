@@ -5,7 +5,7 @@ const server = http.createServer((req, res)=>{
 
     console.log(req.url,req.method);
     if(req.url === '/'){
-    res.setHeader('Content-Type', 'text/html');
+    res.setHeader('Content-Type', 'text/html'); 
     res.write('<html>');
     res.write('<head><title>Complete Coding</title></head>');
     res.write('<body><h1>Enter your details</h1>');
